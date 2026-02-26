@@ -1,0 +1,24 @@
+# セキュリティ・環境変数（※超重要！）
+.env
+
+# データベースファイル（実際のデータやテストデータが入るため除外）
+*.db
+*.sqlite3
+
+# Pythonの仮想環境
+.venv/
+venv/
+env/
+
+# Pythonのキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE（エディタ）の設定ファイル
+.vscode/
+.idea/
+
+# OSが自動生成するファイル
+.DS_Store
+Thumbs.db
